@@ -1,0 +1,34 @@
+{
+  "name": "gitdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mydreams0225/gitDemo.git"
+  },
+  "author": "lindsey-25 <1224893829@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mydreams0225/gitDemo/issues"
+  },
+  "homepage": "https://github.com/mydreams0225/gitDemo#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "loader-utils": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lindey-25-my-npmqwer": "^1.0.1",
+    "lodash": "^4.17.21"
+  }
+}
