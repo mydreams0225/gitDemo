@@ -1,8 +1,11 @@
-const a =1;
-console.log(RANDOM);
-console.log(VERSION);
-console.log(DOMAIN);
 
-const j1 = $('#item'); // <= 起作用
-const j2 = _.drop([1, 2, 3], 2); // <= 起作用
-console.log(j1,j2)
+const Mock = require('mockjs');
+const a = Mock.mock({
+    "object|2": {
+      "310000": "上海市",
+      "320000": "江苏省",
+      "330000": "浙江省",
+      "340000": "安徽省"
+    }
+  })
+  console.log(a);
