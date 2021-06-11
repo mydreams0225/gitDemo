@@ -1,0 +1,8 @@
+@import url(./layout.css);
+.box{
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border:10px solid #ddd;
+
+}

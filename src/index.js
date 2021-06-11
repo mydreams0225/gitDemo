@@ -1,1 +1,4 @@
-console.log(1224)
+const a = require('./assets/style/a.css');
+console.log(a.default)
+
+
